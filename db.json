@@ -44,5 +44,7 @@
       "value": "194.153.0.0/16",
       "description": "Netrange rule"
     }
-  ]
+  ],
+  "whitelist_empty": [],
+  "monitoring_empty": []
 }
