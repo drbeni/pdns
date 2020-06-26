@@ -22,29 +22,5 @@
       "description": "Sophos Extensible List"
     }
   ],
-  "monitoring": [
-    {
-      "id": 1,
-      "match_type": "suffix",
-      "key": "rrname",
-      "value": ".xlink.cn.",
-      "description": "Suffix rule"
-    },
-    {
-      "id": 2,
-      "match_type": "literal",
-      "key": "rrname",
-      "value": "az667904.vo.msecnd.net.",
-      "description": "Literal rule"
-    },
-    {
-      "id": 3,
-      "match_type": "netrange",
-      "key": "rdata",
-      "value": "194.153.0.0/16",
-      "description": "Netrange rule"
-    }
-  ],
-  "whitelist_empty": [],
-  "monitoring_empty": []
+  "whitelistEmpty": [],
 }
